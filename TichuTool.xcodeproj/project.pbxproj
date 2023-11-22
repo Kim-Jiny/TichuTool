@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		364FC7722B0DADAB009AF157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7712B0DADAB009AF157 /* AppDelegate.swift */; };
+		364FC7742B0DADAB009AF157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7732B0DADAB009AF157 /* SceneDelegate.swift */; };
+		364FC7762B0DADAB009AF157 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7752B0DADAB009AF157 /* MainVC.swift */; };
+		364FC77B2B0DADAC009AF157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364FC77A2B0DADAC009AF157 /* Assets.xcassets */; };
+		364FC77E2B0DADAC009AF157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364FC77C2B0DADAC009AF157 /* LaunchScreen.storyboard */; };
+		364FC7892B0DADAD009AF157 /* TichuToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7882B0DADAD009AF157 /* TichuToolTests.swift */; };
+		364FC7932B0DADAD009AF157 /* TichuToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7922B0DADAD009AF157 /* TichuToolUITests.swift */; };
+		364FC7952B0DADAD009AF157 /* TichuToolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7942B0DADAD009AF157 /* TichuToolUITestsLaunchTests.swift */; };
+		364FC7A32B0DAF08009AF157 /* WebModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7A22B0DAF08009AF157 /* WebModel.swift */; };
+		364FC7A52B0DAF19009AF157 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7A42B0DAF19009AF157 /* WebViewModel.swift */; };
+		364FC7A72B0DAF35009AF157 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7A62B0DAF35009AF157 /* WebViewController.swift */; };
+		364FC7AA2B0DAFE2009AF157 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 364FC7A92B0DAFE2009AF157 /* SnapKit */; };
+		364FC7AE2B0DB144009AF157 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7AD2B0DB144009AF157 /* Coordinator.swift */; };
+		364FC7B02B0DB162009AF157 /* WebPageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7AF2B0DB162009AF157 /* WebPageCoordinator.swift */; };
+		364FC7B32B0DB1F1009AF157 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7B22B0DB1F1009AF157 /* MainCoordinator.swift */; };
+		364FC7B52B0DB2BA009AF157 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364FC7B42B0DB2BA009AF157 /* MainViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		364FC7852B0DADAD009AF157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 364FC7662B0DADAB009AF157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364FC76D2B0DADAB009AF157;
+			remoteInfo = TichuTool;
+		};
+		364FC78F2B0DADAD009AF157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 364FC7662B0DADAB009AF157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364FC76D2B0DADAB009AF157;
+			remoteInfo = TichuTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		364FC76E2B0DADAB009AF157 /* TichuTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TichuTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		364FC7712B0DADAB009AF157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		364FC7732B0DADAB009AF157 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		364FC7752B0DADAB009AF157 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		364FC77A2B0DADAC009AF157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		364FC77D2B0DADAC009AF157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		364FC77F2B0DADAC009AF157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364FC7842B0DADAD009AF157 /* TichuToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TichuToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364FC7882B0DADAD009AF157 /* TichuToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TichuToolTests.swift; sourceTree = "<group>"; };
+		364FC78E2B0DADAD009AF157 /* TichuToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TichuToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364FC7922B0DADAD009AF157 /* TichuToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TichuToolUITests.swift; sourceTree = "<group>"; };
+		364FC7942B0DADAD009AF157 /* TichuToolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TichuToolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		364FC7A22B0DAF08009AF157 /* WebModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebModel.swift; sourceTree = "<group>"; };
+		364FC7A42B0DAF19009AF157 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		364FC7A62B0DAF35009AF157 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		364FC7AD2B0DB144009AF157 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		364FC7AF2B0DB162009AF157 /* WebPageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageCoordinator.swift; sourceTree = "<group>"; };
+		364FC7B22B0DB1F1009AF157 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		364FC7B42B0DB2BA009AF157 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		364FC76B2B0DADAB009AF157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364FC7AA2B0DAFE2009AF157 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364FC7812B0DADAD009AF157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364FC78B2B0DADAD009AF157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		364FC7652B0DADAB009AF157 = {
+			isa = PBXGroup;
+			children = (
+				364FC7702B0DADAB009AF157 /* TichuTool */,
+				364FC7872B0DADAD009AF157 /* TichuToolTests */,
+				364FC7912B0DADAD009AF157 /* TichuToolUITests */,
+				364FC76F2B0DADAB009AF157 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		364FC76F2B0DADAB009AF157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				364FC76E2B0DADAB009AF157 /* TichuTool.app */,
+				364FC7842B0DADAD009AF157 /* TichuToolTests.xctest */,
+				364FC78E2B0DADAD009AF157 /* TichuToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		364FC7702B0DADAB009AF157 /* TichuTool */ = {
+			isa = PBXGroup;
+			children = (
+				364FC7AB2B0DB12E009AF157 /* Common */,
+				364FC7B12B0DB1E5009AF157 /* Main */,
+				364FC7A12B0DAEDA009AF157 /* WebView */,
+				364FC7712B0DADAB009AF157 /* AppDelegate.swift */,
+				364FC7732B0DADAB009AF157 /* SceneDelegate.swift */,
+				364FC77A2B0DADAC009AF157 /* Assets.xcassets */,
+				364FC77C2B0DADAC009AF157 /* LaunchScreen.storyboard */,
+				364FC77F2B0DADAC009AF157 /* Info.plist */,
+			);
+			path = TichuTool;
+			sourceTree = "<group>";
+		};
+		364FC7872B0DADAD009AF157 /* TichuToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				364FC7882B0DADAD009AF157 /* TichuToolTests.swift */,
+			);
+			path = TichuToolTests;
+			sourceTree = "<group>";
+		};
+		364FC7912B0DADAD009AF157 /* TichuToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				364FC7922B0DADAD009AF157 /* TichuToolUITests.swift */,
+				364FC7942B0DADAD009AF157 /* TichuToolUITestsLaunchTests.swift */,
+			);
+			path = TichuToolUITests;
+			sourceTree = "<group>";
+		};
+		364FC7A12B0DAEDA009AF157 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				364FC7A22B0DAF08009AF157 /* WebModel.swift */,
+				364FC7A42B0DAF19009AF157 /* WebViewModel.swift */,
+				364FC7A62B0DAF35009AF157 /* WebViewController.swift */,
+				364FC7AF2B0DB162009AF157 /* WebPageCoordinator.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		364FC7AB2B0DB12E009AF157 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				364FC7AC2B0DB136009AF157 /* Coordinator */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		364FC7AC2B0DB136009AF157 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				364FC7AD2B0DB144009AF157 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		364FC7B12B0DB1E5009AF157 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				364FC7752B0DADAB009AF157 /* MainVC.swift */,
+				364FC7B22B0DB1F1009AF157 /* MainCoordinator.swift */,
+				364FC7B42B0DB2BA009AF157 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		364FC76D2B0DADAB009AF157 /* TichuTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364FC7982B0DADAD009AF157 /* Build configuration list for PBXNativeTarget "TichuTool" */;
+			buildPhases = (
+				364FC76A2B0DADAB009AF157 /* Sources */,
+				364FC76B2B0DADAB009AF157 /* Frameworks */,
+				364FC76C2B0DADAB009AF157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TichuTool;
+			packageProductDependencies = (
+				364FC7A92B0DAFE2009AF157 /* SnapKit */,
+			);
+			productName = TichuTool;
+			productReference = 364FC76E2B0DADAB009AF157 /* TichuTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		364FC7832B0DADAD009AF157 /* TichuToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364FC79B2B0DADAD009AF157 /* Build configuration list for PBXNativeTarget "TichuToolTests" */;
+			buildPhases = (
+				364FC7802B0DADAD009AF157 /* Sources */,
+				364FC7812B0DADAD009AF157 /* Frameworks */,
+				364FC7822B0DADAD009AF157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				364FC7862B0DADAD009AF157 /* PBXTargetDependency */,
+			);
+			name = TichuToolTests;
+			productName = TichuToolTests;
+			productReference = 364FC7842B0DADAD009AF157 /* TichuToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		364FC78D2B0DADAD009AF157 /* TichuToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364FC79E2B0DADAD009AF157 /* Build configuration list for PBXNativeTarget "TichuToolUITests" */;
+			buildPhases = (
+				364FC78A2B0DADAD009AF157 /* Sources */,
+				364FC78B2B0DADAD009AF157 /* Frameworks */,
+				364FC78C2B0DADAD009AF157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				364FC7902B0DADAD009AF157 /* PBXTargetDependency */,
+			);
+			name = TichuToolUITests;
+			productName = TichuToolUITests;
+			productReference = 364FC78E2B0DADAD009AF157 /* TichuToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		364FC7662B0DADAB009AF157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					364FC76D2B0DADAB009AF157 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					364FC7832B0DADAD009AF157 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 364FC76D2B0DADAB009AF157;
+					};
+					364FC78D2B0DADAD009AF157 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 364FC76D2B0DADAB009AF157;
+					};
+				};
+			};
+			buildConfigurationList = 364FC7692B0DADAB009AF157 /* Build configuration list for PBXProject "TichuTool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 364FC7652B0DADAB009AF157;
+			packageReferences = (
+				364FC7A82B0DAFE2009AF157 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 364FC76F2B0DADAB009AF157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				364FC76D2B0DADAB009AF157 /* TichuTool */,
+				364FC7832B0DADAD009AF157 /* TichuToolTests */,
+				364FC78D2B0DADAD009AF157 /* TichuToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		364FC76C2B0DADAB009AF157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364FC77E2B0DADAC009AF157 /* LaunchScreen.storyboard in Resources */,
+				364FC77B2B0DADAC009AF157 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364FC7822B0DADAD009AF157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364FC78C2B0DADAD009AF157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		364FC76A2B0DADAB009AF157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364FC7A32B0DAF08009AF157 /* WebModel.swift in Sources */,
+				364FC7A72B0DAF35009AF157 /* WebViewController.swift in Sources */,
+				364FC7B02B0DB162009AF157 /* WebPageCoordinator.swift in Sources */,
+				364FC7B32B0DB1F1009AF157 /* MainCoordinator.swift in Sources */,
+				364FC7762B0DADAB009AF157 /* MainVC.swift in Sources */,
+				364FC7B52B0DB2BA009AF157 /* MainViewModel.swift in Sources */,
+				364FC7722B0DADAB009AF157 /* AppDelegate.swift in Sources */,
+				364FC7A52B0DAF19009AF157 /* WebViewModel.swift in Sources */,
+				364FC7742B0DADAB009AF157 /* SceneDelegate.swift in Sources */,
+				364FC7AE2B0DB144009AF157 /* Coordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364FC7802B0DADAD009AF157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364FC7892B0DADAD009AF157 /* TichuToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364FC78A2B0DADAD009AF157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364FC7952B0DADAD009AF157 /* TichuToolUITestsLaunchTests.swift in Sources */,
+				364FC7932B0DADAD009AF157 /* TichuToolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		364FC7862B0DADAD009AF157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364FC76D2B0DADAB009AF157 /* TichuTool */;
+			targetProxy = 364FC7852B0DADAD009AF157 /* PBXContainerItemProxy */;
+		};
+		364FC7902B0DADAD009AF157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364FC76D2B0DADAB009AF157 /* TichuTool */;
+			targetProxy = 364FC78F2B0DADAD009AF157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		364FC77C2B0DADAC009AF157 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364FC77D2B0DADAC009AF157 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		364FC7962B0DADAD009AF157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		364FC7972B0DADAD009AF157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		364FC7992B0DADAD009AF157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 799GLJ393L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TichuTool/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.vs.uikit.TichuTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		364FC79A2B0DADAD009AF157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 799GLJ393L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TichuTool/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.vs.uikit.TichuTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		364FC79C2B0DADAD009AF157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 799GLJ393L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.vs.uikit.TichuToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TichuTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TichuTool";
+			};
+			name = Debug;
+		};
+		364FC79D2B0DADAD009AF157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 799GLJ393L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.vs.uikit.TichuToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TichuTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TichuTool";
+			};
+			name = Release;
+		};
+		364FC79F2B0DADAD009AF157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 799GLJ393L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.vs.uikit.TichuToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TichuTool;
+			};
+			name = Debug;
+		};
+		364FC7A02B0DADAD009AF157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 799GLJ393L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.vs.uikit.TichuToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TichuTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		364FC7692B0DADAB009AF157 /* Build configuration list for PBXProject "TichuTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364FC7962B0DADAD009AF157 /* Debug */,
+				364FC7972B0DADAD009AF157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364FC7982B0DADAD009AF157 /* Build configuration list for PBXNativeTarget "TichuTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364FC7992B0DADAD009AF157 /* Debug */,
+				364FC79A2B0DADAD009AF157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364FC79B2B0DADAD009AF157 /* Build configuration list for PBXNativeTarget "TichuToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364FC79C2B0DADAD009AF157 /* Debug */,
+				364FC79D2B0DADAD009AF157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364FC79E2B0DADAD009AF157 /* Build configuration list for PBXNativeTarget "TichuToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364FC79F2B0DADAD009AF157 /* Debug */,
+				364FC7A02B0DADAD009AF157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		364FC7A82B0DAFE2009AF157 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		364FC7A92B0DAFE2009AF157 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 364FC7A82B0DAFE2009AF157 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 364FC7662B0DADAB009AF157 /* Project object */;
+}
